@@ -1,0 +1,79 @@
+.glass-square {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(100, 100, 100, 0.2); /* Полупрозрачный фон */
+  border-radius: 10px; /* Скругленные углы */
+  backdrop-filter: blur(10px); /* Эффект размытия фона */
+  -webkit-backdrop-filter: blur(10px); /* Для совместимости с Safari */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Тень для эффекта глубины */
+  border: 1px solid rgba(255, 255, 255, 0.18); /* Светлая рамка */
+  /* Дополнительные стили для внутреннего содержимого (если есть) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 605px;
+  position: absolute;
+  margin-top: 250px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.glass-square:hover {
+    background-color: rgba(133, 133, 133, 0.2); /* Изменится цвет фона */
+  cursor: pointer; /* Изменится вид курсора */
+}
+
+.foto1{
+    margin-left: 615px;
+    margin-top: 260px;
+    position: absolute;
+}
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid blue; /* Цвет и размер стрелки */
+  transform: rotate(-135deg);
+  position: absolute;
+  margin-left: 580px;
+  margin-top: 226px;
+}
+
+.arrow-left2 {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid blue; /* Цвет и размер стрелки */
+  transform: rotate(140deg);
+  position: absolute;
+  margin-left: 583px;
+  margin-top: 555px;
+}
+.arrow-left3 {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid blue; /* Цвет и размер стрелки */
+  transform: rotate(-160deg);
+  position: absolute;
+  margin-left: 912px;
+  margin-top: 224px;
+}
+.arrow-left4 {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 15px solid blue; /* Цвет и размер стрелки */
+  transform: rotate(-75deg);
+  position: absolute;
+  margin-left: 912px;
+  margin-top: 555px;
+}
+.text1{
+  position: absolute;
+  color: white;
+  margin-left: 648px;
+  margin-top: 600px;
+}

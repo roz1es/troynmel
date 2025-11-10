@@ -1,0 +1,8 @@
+services:
+  cdn:
+    image: httpd:2.4-alpine3.22
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - ./Applications/XAMPP/xamppfiles/htdocs/samostoyhtml2
+      - ./evil.example/:/usr/local/apache2/htdocs/
